@@ -1,0 +1,119 @@
+body{
+font: 15px/1.5 Arial, Helvetica, sans-serif ;
+padding: 0px;
+margin: 0px;
+background-color: #ffffff;
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header li{
+	float:center;
+	padding-top: 20px;
+	display: inline;
+}
+
+header nav{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+header a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+ header #branding{
+	background: url(momos1.jpg)  repeat -80px 100px;
+	background-position: center;
+  background-size: block;
+	padding: 5px;
+	text-align: center;
+	min-height:400px;
+	color: #ffffff;
+}
+
+.heading{
+	padding: 5px;
+}
+
+.heading p{
+	font-weight: bold;
+	font-family: comic cursive;
+	font-size: 16px;
+	color:#ffffff;
+	background: rgba(0, 0, 0, 0.7);
+	display: inline;
+}
+
+.heading h1{
+	font-weight: bolder;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	padding:5px;
+}
+
+
+.logo{
+	float:center;
+	padding: 10px;
+}
+
+.logo img{
+	width: 100px;
+	border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#boxes{
+  	float: left;
+	width:40%;
+	padding:5%;
+	position : absolute;
+}
+
+#sidebar {
+  	background: url(hot.jpeg) no-repeat 95px 100px;
+	background-position: right;
+	float:right;
+	width: 50%;
+	height : 350px;
+	min-height: 350px;
+}
+
+ .mumbai p{
+	background: #ffffff;
+	font-weight: bold;
+	width:25px;
+	padding:5px;
+	text-align: center;
+}
+
+#footer {
+
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background: rgba(0, 0, 0, 1);
+	text-align:left;
+	color:#ffffff;
+	padding: 18px;
+	margin-top: 350px;
+	position : relative;
+}
